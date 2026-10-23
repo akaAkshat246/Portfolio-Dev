@@ -1,0 +1,11 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Editor and IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
