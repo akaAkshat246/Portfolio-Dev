@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "akshat-vats-portfolio",
+  "compatibility_date": "2026-10-19",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "single-page-application",
+    "exclude": [
+      ".git/**",
+      ".gitignore",
+      "README.md"
+    ]
+  }
+}
